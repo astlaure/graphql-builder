@@ -64,3 +64,8 @@ GraphQLQuery query = GraphQLQueryBuilder.buildQuery("getClient", arguments, prop
 
 return template.postForEntity("http://localhost:8080/graphql", query, Object.class);
 ```
+
+### Still Missing
+
+1. OperationName
+2. Variables
